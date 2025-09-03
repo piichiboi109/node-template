@@ -17,7 +17,7 @@ on:
 
 jobs:
   node-ci:
-    uses: your-org/node-workflows/.github/workflows/node-ci.yml@v1
+    uses: your-org/node-workflows/.github/workflows/node-build-template.yml@v1
     with:
       node-version: '18'
 ```
